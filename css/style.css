@@ -486,7 +486,7 @@
 }
 
 .bottom-conteiner {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto 64px;
   padding: 0 15px;  
 }
@@ -956,6 +956,10 @@
   .aside-tegs-link-item {
     margin-right: 6px;
     padding: 0 10px 0;
+  }
+
+  .bottom-conteiner {
+    width: 100%;
   }
 
   .goods-item, .goods-item:not(:first-child), .goods-item:not(:last-child) {
